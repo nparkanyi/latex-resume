@@ -1,9 +1,18 @@
 % Nicholas Parkanyi's résumé
-\documentclass[12pt,letterpaper,notitlepage]{article}
+\documentclass[10pt,letterpaper,notitlepage]{article}
+
+% more conservative margins
+\usepackage[margin=0.75in]{geometry}
+
+%\resumetitle{Name}{Contact Info}
+\newcommand{\resumetitle}[2]{\title{\vspace{-6ex} #1 --- R\'{e}sum\'{e}\vspace{-3ex}}
+  \date{#2}}
 
 \begin{document}
-\title{Nicholas Parkanyi --- R\'{e}sum\'{e}}
-\date{May 2015}
+
+\resumetitle{Nicholas Parkanyi}{13 Avon Lane, Ottawa, ON, K1M1V1 \\
+                                (613) 745 8734 (Home) \\ (613) 315 7691 (Mobile) \\
+                                \texttt{n.parkanyi@gmail.com}}
 
 \maketitle
 
